@@ -17,13 +17,13 @@ set number
 set nowrap
 filetype plugin indent on
 if has("gui_running")
-  set gfn=Inconsolata\ Medium\ 14
+  set gfn=Inconsolata:h16.00
   set guioptions-=T
   set guioptions-=m
   let do_syntax_sel_menu = 1|runtime!synmenu.vim
   aunmenu &Syntax.&Show\ filetypes\ in\ menu
 endif
-set pfn=Inconsolata\ Medium\ 14
+set pfn=Inconsolata:h16.00
 colors wombat
 set incsearch
 set foldmethod=syntax
