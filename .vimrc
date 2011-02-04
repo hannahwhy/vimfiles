@@ -22,9 +22,12 @@ if has("gui_running")
   set guioptions-=m
   let do_syntax_sel_menu = 1|runtime!synmenu.vim
   aunmenu &Syntax.&Show\ filetypes\ in\ menu
-endif
+  colors ir_black
+else
+  colors wombat
+end
+
 set pfn=Inconsolata\ Medium\ 14
-colors wombat
 set incsearch
 set foldmethod=syntax
 set foldlevel=1
