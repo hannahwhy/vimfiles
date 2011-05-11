@@ -34,3 +34,7 @@ command! GR !git reset HEAD %
 command! GA !git add %
 command! GC !git checkout %
 command! GS !git status
+
+" Haskellmode stuff
+let g:haddock_browser = "/usr/bin/firefox"
+au BufEnter *.hs compiler ghc
