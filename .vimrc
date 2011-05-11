@@ -8,7 +8,7 @@ set backspace=indent,eol,start
 if has("gui_running")
   set gfn=Inconsolata\ Medium\ 14
   set guioptions-=T
-  set guioptions-=M
+  set guioptions-=m
   colors ir_black
 else
   colors wombat
