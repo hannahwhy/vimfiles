@@ -23,6 +23,8 @@ endif
 
 set ai
 set si
+set modeline
+set modelines=1
 set number
 set nowrap
 set incsearch
