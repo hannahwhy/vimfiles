@@ -11,7 +11,7 @@ if has("gui_running")
   set guioptions-=m
   colors ir_black
 else
-  colors wombat
+  colors slate
 end
 
 " Switch syntax highlighting on, when the terminal has colors
