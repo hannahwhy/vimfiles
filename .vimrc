@@ -40,3 +40,6 @@ command! GS !git status
 " Haskellmode stuff
 let g:haddock_browser = "/usr/bin/firefox"
 au BufEnter *.hs compiler ghc
+
+" Speed up Ruby location
+let g:ruby_path = system("which ruby")
