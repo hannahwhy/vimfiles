@@ -6,7 +6,7 @@ set nocompatible
 set backspace=indent,eol,start
 
 if has("gui_running")
-  set gfn=Inconsolata\ Medium\ 10
+  set gfn=Inconsolata\ Medium\ 8
   set guioptions-=T
   set guioptions-=m
   colors ir_black
